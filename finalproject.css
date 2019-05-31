@@ -1,0 +1,147 @@
+/*
+* Mia Buonadonna
+* Mat 30, 2019
+* Final Project - Innovative Women
+*/
+
+/* The universal selector */
+
+/* This is where I set the margin and padding to 0. */
+* {
+
+    margin: 0;
+    padding: 0; 
+    
+}
+
+/* This is where I changed the size, color, and font of the body. */
+body {
+
+    background-color: navy;
+    width: 1400px;
+    margin: 15px auto;
+    font-family: monospace;
+    
+}
+
+/* This is where I changed the header color, size, and borders and I also changed the text. */
+header {
+    
+    background-color: lightblue; 
+    border-bottom: 5px solid coral;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    font-size: 175%;
+    
+}
+
+/* This is where I changed the individual headings sizes, margins, and I centered them. */
+
+h1 {
+    
+    text-align: center;
+    
+}
+
+h3, h5 {
+    
+    margin: 5px;
+    
+}
+
+#asidetext {
+    
+    font-size: 14.2px;
+    
+}
+
+/* This is where I changd the color, size, border, and placement of the aside section, which I made an id for in the html.  The id is trivia. */
+
+#trivia {
+    
+    background-color: lightblue;
+    border: 3px solid coral;
+    margin: 15px;
+    padding: 10px;
+    width: 300px;
+    height: 590px; 
+    float: left;
+    text-align: center;
+    
+}
+
+/* This is where I set the size, margins, and border of the first picture. */
+#sylvia1 {
+    
+    width: 200px;
+    height: 275px;
+    border: 3px solid darkblue;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+/* This is where I changed the color, borders, and size of the main section, which is the center section. */
+main {
+    
+    background-color: lightblue;
+    border: 3px solid coral;
+    margin: 15px;
+    padding: 10px;
+    width: 630px;
+    height: 590px; 
+    float: left;
+    
+}
+
+/* This is where I set the size, margins, and border of the second picture. */
+#sylvia2 {
+    
+    width: 250px;
+    height: 150px;
+    border: 3px solid darkblue;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    
+}
+
+/* This is where I changd the color, size, border, and placement of the second aside section, which I made an id for in the html.  The id is accomplishments. */
+#accomplishments {
+    
+    background-color: lightblue;
+    border: 3px solid coral;
+    margin: 15px;
+    padding: 10px;
+    width: 300px;
+    height: 590px; 
+    float: left;
+    text-align: center;
+    
+}
+
+/* This is where I set the margin for the accomplishments section title, which I made the id aa title for it in the html. */
+#aatitle {
+    
+    margin-bottom: 15px;
+    
+}
+
+/* This is where I changed the color, borders, size, and placement of the footer.  */
+footer {
+    
+    background-color: lightblue;
+    border-top: 5px solid coral;
+    margin: 15px;
+    padding: 10px;
+    width: 1350px;
+    height: 75px; 
+    float: left;
+    
+}
